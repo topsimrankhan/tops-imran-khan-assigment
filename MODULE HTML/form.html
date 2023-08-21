@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Form</title>
+    <h2>Individual Registration</h2>
+    
+</head>
+
+<body style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+    <form action="/action_page.php" style="background-color: lightblue;">
+        <h4 style="color: red;">User particulars</h4>
+
+        <div class="user">
+            <label for="id">Login id :</label>
+            <input type="text" id="login id"><br>
+            <label for="password">Password :</label>
+            <input type="password" id="password"><br>
+            <label for="password">Confirm password :</label>
+            <input type="password" id="password">
+        </div>
+        <div class="particulars1"> </div>
+
+        <h4 style="color: red;">Personal Particulars</h4>
+        <div class="s1">
+
+            <div class="personal">
+                <label for="select">Salutation :</label>
+                <select name="id" id="salutation" style="width :180px ;">
+                    <option value="select">Select</option>
+                </select><br>
+                <label for="mname">Middel Name :</label>
+                <input type="text" id="mname"><br>
+                <label for="select">Resident status :</label>
+                <select name="id" id="Resident status" style="width :170px ;">
+                    <option value="select">Select</option>
+                </select><br>
+                <label for="email">Email id :</label>
+                <input type="text" id="email"><br>
+            </div>
+
+            <div class="particulars2">
+                <label for="fname">First name :</label>
+                <input type="text" id="fname"><br>
+                <label for="lname">Last name :</label>
+                <input type="text" id="lname"><br>
+                <label for="select">Country :</label>
+                <select name="id" id="country" style="width :160px ;">
+                    <option value="select">Select</option>
+                </select><br>
+                <label for="mobile">Mobile number :</label>
+                <input type="text" id="mobile"><br>
+            </div>
+        </div>
+
+        <h4 style="color: red;">Account Particulars</h4>
+        <div class="s2">
+            <div class="account">
+                <label for="accnumber">15 Digit account number :</label>
+                <input type="text" id="accnumber"><br>
+                <label for="select">Fund transfer :</label>
+                <select name="id" id="fund" style="width :170px ;">
+                    <option value="select">Select</option>
+                </select><br>
+            </div>
+            <div class="p3">
+                <label for="nname">Nick name :</label>
+                <input type="text" id="nname"><br>
+            </div>
+        </div>
+
+        <h4 style="color: red;">Declaration</h4>
+        <P style="color: darkblue;">
+            I have read, understood and hereby agree to the Terms and Conitions in respect of all products and
+            channels.<br>I understand that any changes in the terms and conditions applicable to this relationship would
+            be made available to me on request at any IOB branches.I confirm that all accounts under this login name
+            are operated singly and in case of joint account operated by either or survivor / anyone or survivor(s)
+            under
+            his/her joint name respectively. I do hereby declare that information furnished in this form is true to the
+            best of my knowledge and belief
+        </P>
+        <div class="button" style="text-align: center;padding-bottom: 5px;"> 
+            <button style="background-color: rgb(42, 155, 175);text-decoration-color: white;">Submit</button>
+            <button style="background-color:  rgb(42, 155, 175);text-decoration-color: white;">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+.shape1{
+   display: flex;
+   height: 50vh;
+}
+.flex1{
+   background-color:lightskyblue;
+   text-align: center;
+   
+   align-content: space-between;
+   width: 30%;
+   margin: 5px;
+}
+.butt{
+   border-radius: 2px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.flex2{
+   background-color:lightskyblue; 
+   width : 70%;
+   margin: 5px;
+}
+.shape2{
+   display: flex;
+   height: 50vh;
+   /* margin-top: 4px; */
+}
+.box{
+   background-color:lightskyblue;
+   width: 100%;
+   margin: 5px;
+   text-align: center;  
+}
+
+.paragraph{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.shape3{
+   display: flex;
+   height: 25vh;
+   /* margin-top: 4px; */
+}
+.rect{
+   background-color:lightskyblue;
+   width: 100%;
+   margin: 5px;
+}
+.shape4{
+   display: flex;
+   height: 50vh;
+}
+.square1{
+   background-color:lightskyblue;
+   width: 50%;
+   margin: 2px;
+}
+.iconImage{
+   height: 50px;
+  width: 50px;
+  display: block;
+  margin-top:20px ;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.square2{
+   background-color:lightskyblue;
+   width : 50%;
+   margin: 5px;
+}
+.shape5{
+   display: flex;
+   height: 50vh;
+   /* margin-top: 4px; */
+}
+.rect1{
+   background-color:lightskyblue;
+   width: 100%;
+   margin: 5px;
+}
+.ii{
+   display: flex;
+   justify-content: space-evenly;
+}
+.shape6{
+   display: flex;
+      height: 25vh;
+   
+   /* margin-top: 4px; */
+}
+.rect2{
+   background-color:lightskyblue;
+   width: 100%;
+   margin: 5px;
+}
+.iconimage{
+   height: 30px;
+  width: 30px;
+  display: block;
+}
